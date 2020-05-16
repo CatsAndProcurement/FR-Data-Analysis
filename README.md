@@ -5,20 +5,13 @@ Created on Wed Apr 29 18:05:21 2020
 
 @author: CatsAndProcurement
 
-The purpose of the script is to 
-download a user-defined dataset via the 
-Federal Register (FR) web API, then 
-aggregate and display the data using Pandas.
+The purpose of the script is to download a user-defined dataset via the Federal Register (FR) web API, then aggregate and display the data using Pandas. Documentation is intended to guide a new Python/Pandas user through the process of writing similar scripts in a clear, simple, step-by-step way.
 
-The FR is the official daily journal of 
-the US government; it notifies the public of 
-proposed and final changes to federal government 
-regulations, among other matters.
+The FR is the official daily journal of the US government; it notifies the public of proposed and final changes to federal government regulations, among other matters.
 
-A web application program interface (API) 
-allows access to FR datasets.
+A web application program interface (API) allows access to FR datasets.
 
-Here's a sample FR web API call:
+Here's a sample FR web API call, broken down with each line representing a parameter to the call:
 https://www.federalregister.gov/documents/search?
 format=csv&
 conditions%5Bpublication_date%5D%5Bgte%5D=1%2F1%2F2017&
