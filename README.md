@@ -20,3 +20,5 @@ conditions%5Bterm%5D=%22Federal+Acquisition+Regulation%22&
 conditions%5Btype%5D%5B%5D=RULE&
 conditions%5Btype%5D%5B%5D=PRORULE&
 conditions%5Btype%5D%5B%5D=NOTICE
+
+Nothing in this script is endorsed by the U.S. government. None of the data that the script might extract is verified by the author; neither raw data nor conclusions drawn from the data should be interpreted as authoritative.
